@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1.0">
+    <title>Accounting</title>
+    <link rel="stylesheet" type="text/css" href="..\css\accountingstyle.css">
+    <script defer type="text/javascript" src="..\js\accountingscript.js"></script>
+</head>
+
+<body>
+    <header id="accheader">
+        <a href="/dashboard">
+            <svg class="arrleft" width="28px" height="28px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z" />
+            </svg>
+        </a>
+        <h1 id="acc">Accounting</h1>
+    </header>
+    <div id="accformcontainer">
+        <form action="" id="accform">
+            <div class="accfill1">
+                <div>
+                    <label for="">Date</label><br>
+                    <input type="date" id="accdate" name="accdate">
+                </div>
+                <div>
+                    <label for="">Customer</label><br>
+                    <input type="text" id="customername" name="customername">
+                </div>
+            </div>
+            <p>Sales</p>
+            <div class="accfill2">
+                <div>
+                    <label for="">Item</label><br>
+                    <input type="text" id="birdsold" name="birdsold">
+                    <button id="additem" type="button">add</button>
+                </div>
+                <div>
+                    <label for="">Qty</label><br>
+                    <input type="number" id="qtysold" name="qtysold">
+                </div>
+                <div>
+                    <label for="">Price</label><br>
+                    <input type="number" id="sellprice" name="sellprice">
+                </div>
+            </div>
+            <p>Expenses</p>
+            <div class="accfill3">
+                <div>
+                    <label for="">Item</label><br>
+                    <input type="text" id="exp" name="exp">
+                    <button type="button" id="additemexp">add</button>
+                </div>
+                <div>
+                    <label for="">Qty</label><br>
+                    <input type="number" id="qtyexp" name="qtyexp">
+                </div>
+                <div>
+                    <label for="">Price</label><br>
+                    <input type="number" id="expprice" name="expprice">
+                </div>
+            </div>
+        </form>
+    </div>
+    <p id="summary">Summary</p>
+    <!--<p id="acdate">Saturday, 22nd May, 2020</p>-->
+    <div id="display" class="summary"></div>
+    <a href="#">
+        <svg class="acccheck" width="40px" height="40px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+                d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z" />
+        </svg>
+    </a>
+</body>
+
+</html>

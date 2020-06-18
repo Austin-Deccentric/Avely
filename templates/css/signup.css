@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates');
+:root {
+    --primary-color:#1D3557;
+    --secondary-color:#E5E5E5;
+    font-size: 10px;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border-width: 0px;
+    border-style: solid; */
+}
+
+body {
+    font-family: "Montserrat","Alternatives",sans-serif;
+    background:var(--secondary-color);
+    line-height: 1.6rem;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+h2 {
+    font-size: 7.2rem;
+    font-style: normal;
+    line-height: 5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+h2 span {
+    color: #457B9D;
+}
+p {
+    width: 5rem;
+    height: 1.6rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #000;
+}
+ label {
+    display: block;
+    text-align: left;
+    font-style: Regular;
+    font-size: 2rem;
+    width: 10rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    margin: 1rem 0;
+}
+input {
+    display:block;
+    width: 28.5rem;
+    height: 4.5rem;
+    background: #f0f0f0;
+    border-radius: 1.6rem;
+    outline: 0;
+    font-size: 100%;
+    margin: 0;
+}
+input::placeholder {
+    width: 16.5rem;
+    height: 2.2rem;
+    font-family: inherit;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: #A8DADC;
+    padding-left: 1rem;
+    padding-top:1.5rem;
+}
+
+input::focus {
+    border-radius: 1px solid #457B9D;
+}
+
+/* Utility Class */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('https://res.cloudinary.com/brunoelo/image/upload/v1590168301/SNG%20Project/Sign_Up.png')
+                no-repeat  center center;
+    max-width: 100vw; 
+    height: 62vw;
+    width: 100vh;
+    margin:0 auto;
+    line-height: 1.7rem;
+    /* overflow: auto; */
+    padding: 0 3rem;
+    /* width: 100vh; */
+}
+
+.btn {
+    display: inline-block;
+    width: 30rem;
+    height: 5rem;
+    background: var(--primary-color);
+    box-shadow: 0px -5px 9px  rgba(0, 0, 0, 0.2)
+                0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+    color: var(--secondary-color);
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-top: 2rem;
+}
+.eye {
+    position: relative;
+    left: 11rem;
+    top: -3rem;
+    right: 0;
+}
+#main-header {
+    margin-top: -3rem;
+    /* padding-bottom: 2rem; */
+}
+
+.logo img {
+    width: 40%;
+    margin: 0 auto;
+}
+form a {
+    display: block;
+    text-align: right;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin: 0.5rem 0;
+    color: var(--primary-color);
+}
+.container span.sign-in {
+    position: relative;
+    right: 0;
+    left: 7rem;
+    width: 30rem;
+    height: 1.6rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.start-line {
+    position: relative;
+    width: 14rem;
+    border: 1px solid #000;
+    top : 1rem;
+    right: 10rem;
+    /* transform: rotate(0.01deg); */
+}
+.end-line {
+    position: relative;
+    width: 14rem;
+    border: 1px solid #000;
+    top : -1rem;
+    left: 10rem;
+}
+
+
+
+.social-container {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+.social {
+    border-radius: 1.6rem;
+    height: 5rem;
+    width: 14rem;
+    box-shadow: 0px -5px 9px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.social img {
+    width: 20%;
+}
+.social a {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: 500;
+    background: inherit;
+}
+.social.google {
+    background: #fff;
+    z-index: 1;
+}
+.social.facebook {
+    background: var(--primary-color);
+}
+.social.facebook a {
+    color: #fff;
+}
+

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1.0">
+    <title>Health Check</title>
+    <link rel="stylesheet" type="text/css" href=".\css\healthstyle.css">
+    <script defer type="text/javascript" src=".\js\healthscript.js"></script>
+</head>
+
+<body>
+    <header id="healthheader">
+        <a href="/dashboard">
+            <svg class="arrleft" width="28px" height="28px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <!--<a href="https://avely-dashboard.netlify.app/">-->
+                <path
+                    d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z" />
+            </svg>
+        </a>
+        <h1 id="health">Health</h1>
+    </header>
+    <p id="desc">Select a symptom to show its recommended treatment</p>
+    <label for=""></label>
+    <input id="symptom" name="symptom" list="symptoms" placeholder="Symptoms">
+    <datalist id="symptoms">
+        <option value="Bloody droppings/diarrhoea">Coccidiosis</option>
+        <option value="Swollen face/eyes, Sticky discharge from the eyes and nostrils">Infectious Coryza</option>
+        <option value="Loss of appetites but increased thirst, gasping or convulsions">Aspergillosis</option>
+        <option value="Wart-like growths or sores. Slow growth and canker in the mouth">Fowl Pox</option>
+        <option value="Dull eyes, head and neck tremors, appetite loss and eventual paralysis">Avian Encephalomyelitis
+        </option>
+    </datalist>
+    <p id="recdrugs">Recommended treatment</p>
+    <div id="displaydrugs"></div>
+    <img id="threec"
+        src="https://res.cloudinary.com/brunoelo/image/upload/v1590564593/SNG%20Project/Group_103circles.png">
+</body>
+
+</html>

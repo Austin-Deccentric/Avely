@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    color: #1D3557;
+}
+
+.arrleft {
+  margin-left: 16px;
+    float: left;
+    fill: #1D3557;
+}
+
+#acc {
+    text-align: center;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-right: 28px;
+    margin-bottom: 16px;
+}
+
+#accformcontainer {
+margin-left: 50px;
+margin-right: 50px;
+}
+
+.accfill1 input {
+    height: 44px;
+    width: 30vw;
+    border-radius: 16px;
+    background-color: #F0F0F0;
+    border-style: none;
+    padding-left: 8px;
+    margin-top: 8px;
+}
+
+.accfill1, .accfill2, .accfill3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+
+.accfill2 input, .accfill3 input {
+    border-radius: 16px;
+    background-color: #F0F0F0;
+    border-style: none;
+    padding-left: 8px;
+}
+
+.accfill2 input[id="birdsold"], .accfill3 input[id="exp"] {
+    height: 44px;
+    width: 35vw;
+    margin-top: 8px;
+}
+.accfill2 input[id="sellprice"], .accfill3 input[id="expprice"]{
+    height: 44px;
+    width: 15vw;
+    margin-top: 8px;    
+}
+.accfill2 input[id="qtysold"], .accfill3 input[id="qtyexp"] {
+    height: 44px;
+    width: 10vw;
+    margin-top: 8px;
+}
+#accformcontainer p {
+    margin-bottom: 2px;
+}
+.accfill2 label, .accfill3 label {
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.accfill2 #additem, .accfill3 #additemexp {
+background-color: #A8DADC;
+color: #1D3557;
+border-top-right-radius: 0px;
+border-top-left-radius: 0px;
+border-bottom-right-radius: 16px;
+border-bottom-left-radius: 16px;
+width: 58px;
+height: 22px;
+border-style: none;
+margin-left: 15px;
+display: block;
+font-family: 'Montserrat', sans-serif;
+}
+
+.acccheck {
+    fill: #1D3557;
+    float: right;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-top: 11px;
+   /* position: absolute;
+    bottom: 0px;
+    right: 0px;*/
+}
+
+.summary {
+    width: 260px;
+    height: 231px;
+    border: 1px solid #1D3557;
+    border-radius: 16px;
+    margin: auto;
+    padding-top: 11px;
+    padding-left: 16px;
+}
+
+#summary {
+    margin-left: 50px;
+}
+
+#acdate {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+@media screen and (min-width: 700px) {
+    #accformcontainer {
+        margin-left: 100px;
+        margin-right: 100px;
+        }
+        #summary {
+            margin-left: 100px;
+        }
+}

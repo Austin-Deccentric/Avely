@@ -1,0 +1,55 @@
+{
+	"ImportPath": "github.com/Austin-Deccentric/auth",
+	"GoVersion": "go1.14",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/badoux/checkmail",
+			"Comment": "v1.1",
+			"Rev": "9661bd69e9ad6fce1f7579022bdab0440807722a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/mux",
+			"Comment": "v1.7.4-1-g948bec3",
+			"Rev": "948bec34b5168796bf3fc4dbb09215baa970351a"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Comment": "v1.1.1-12-g61b4ad1",
+			"Rev": "61b4ad17eb88d0d1118560d1101176279be2bc88"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Comment": "v1.2.0-5-g15ff351",
+			"Rev": "15ff3511704639ab26f7843f780c015f4bf49565"
+		},
+		{
+			"ImportPath": "github.com/joho/godotenv",
+			"Comment": "v1.3.0-14-gd6ee687",
+			"Rev": "d6ee6871f21dd95e76563a90f522ce9fe75443f8"
+		},
+		{
+			"ImportPath": "github.com/lib/pq",
+			"Comment": "v1.5.2-2-g79ca807",
+			"Rev": "79ca807de5a5a8f5e7ba8ac5b59f553619fffaa3"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/oid",
+			"Comment": "v1.5.2-2-g79ca807",
+			"Rev": "79ca807de5a5a8f5e7ba8ac5b59f553619fffaa3"
+		},
+		{
+			"ImportPath": "github.com/lib/pq/scram",
+			"Comment": "v1.5.2-2-g79ca807",
+			"Rev": "79ca807de5a5a8f5e7ba8ac5b59f553619fffaa3"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/bcrypt",
+			"Rev": "06a226fb4e3765ef3f48aa2852b401bc7b98e981"
+		},
+		{
+			"ImportPath": "golang.org/x/crypto/blowfish",
+			"Rev": "06a226fb4e3765ef3f48aa2852b401bc7b98e981"
+		}
+	]
+}
